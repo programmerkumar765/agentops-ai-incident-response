@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+langgraph
+langchain
+langchain-openai
+openai
+psycopg2-binary
+pgvector
+sqlalchemy
+httpx
+python-dotenv
+pytest
+deepeval

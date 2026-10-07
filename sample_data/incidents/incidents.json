@@ -1,0 +1,18 @@
+[
+  {
+    "incident_id": "INC-1001",
+    "service": "payment-service",
+    "severity": "critical",
+    "error_rate": 18.2,
+    "p95_latency_ms": 4800,
+    "description": "Sudden API latency increase after deployment."
+  },
+  {
+    "incident_id": "INC-1002",
+    "service": "notification-service",
+    "severity": "high",
+    "error_rate": 9.7,
+    "p95_latency_ms": 2200,
+    "description": "Event-processing delays detected."
+  }
+]

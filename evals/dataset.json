@@ -1,0 +1,20 @@
+[
+  {
+    "incident_id": "EVAL-001",
+    "scenario": "database_connection_exhaustion",
+    "expected_tools": [
+      "get_service_metrics",
+      "get_service_logs"
+    ],
+    "expected_human_approval": true
+  },
+  {
+    "incident_id": "EVAL-002",
+    "scenario": "kubernetes_pod_failure",
+    "expected_tools": [
+      "get_kubernetes_status",
+      "get_service_logs"
+    ],
+    "expected_human_approval": true
+  }
+]
